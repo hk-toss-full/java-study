@@ -148,10 +148,33 @@ switch(변수){
 ## interface 형
 
 
+# 객체지향 
+
+## 특징
+1. 객체(Object): 객체는 속성(데이터)과 메소드(행동)를 갖는 것
+
+2. 클래스(Class): 클래스는 객체를 생성하기 위한 템플릿 
+
+3. 상속(Inheritance): 상속은 한 클래스의 속성과 메소드를 다른 클래스가 받아들이는 것
+
+4. 캡슐화(Encapsulation): 캡슐화는 객체의 속성(data fields)과 메소드를 하나로 묶고, 실제 구현 내용 일부를 외부에 감추어 은닉하는 것
+
+5. 다형성(Polymorphism): 다형성은 하나의 메소드나 클래스가 있으면 그것들을 다양한 방법으로 동작시키는 기능 (Override, Overloading)
 
 
-;
-```
+## 설계 원칙
+
+S - Single Responsibility Principle (SRP) = 단일 책임 원칙  : 클래스(객체)는 단 하나의 책임만 가져야 한다.
+
+O - Open/Closed Principle (OCP) = 개방-폐쇄 원칙 : 확장에 열려있어야 하며, 수정에는 닫혀있어야 한다.
+
+L - Liskov Substitution Principle (LSP) = 리스코프 치환 원칙 : 서브 타입은 언제나 기반(부모) 타입으로 교체가능 해야 한다.
+
+I - Interface Segregation Principle (ISP) = 인터페이스 분리 원칙 : 인터페이스를 각각 사용에 맞게 끔 잘게 분리
+
+D - Dependency Inversion Principle (DIP) = 의존 역전 원칙 : 대상의 상위 요소(추상 클래스 or 인터페이스)로 참조
+
+
 
 
 
