@@ -65,7 +65,7 @@ boolean (0 ~ 1)
 
 조건 <= (이하) < (미만) > (초과) >=(이상) ==(같다) != (다르다)
 
-# 반복 조건
+# 반복 
 
 ## for 
 ```
@@ -81,9 +81,56 @@ for(int i = 0; i < 5; i++){
     System.out.println();
 }
 ```
+
+## while
+```
+조건 맞으면 안에 실행
+조건만 들어가니 선언 밖에서
+증감은 안에서
+while(조건){
+    
+}
+```
+## do - while
+실행하고 조건
+do {
+
+}while(조건)
+# 조건
+
 ## if 
+```
+if(조건){
+맞으면 실행
+}else if(조건){
+위 조건 아니고 조건이 맞으면 실행
+}else{
+위 조건들이 다 아니면 실행
+}
 
+```
+## switch
+```
+switch(변수){
+    case 값:
+        변수가 값이랑 같으면 실행
+        return; return 이 없으면 아래도 그냥 실행함
+    case 값:
+        변수가 값이랑 같으면 실행
+        return; return 이 없으면 아래도 그냥 실행함
+    default:
+        return; 항상 끝 else와 같음
+}
 
+자바 17 부턴 -> 화살표로 return 생략
+switch(변수){
+    case 값->
+        변수가 값이랑 같으면 실행
+        // return; return 이 없으면 아래도 그냥 실행함
+    default ->
+        // return; 항상 끝 else와 같음
+}
+```
 # 참조형 
 
 ## class 형
@@ -96,3 +143,11 @@ for(int i = 0; i < 5; i++){
 
 
 ;
+```
+
+
+
+
+
+
+```
