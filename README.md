@@ -31,6 +31,7 @@ public class Main {
     }
 }
 ```
+# 기본 자료형 (타입)
 
 ## 정수
 
@@ -40,18 +41,56 @@ byte (1 byte)(-2^7 ~ 2^7 -1) -> short  (2 byte)(-2^15 ~ 2^15 -1) -> int (4 byte)
 
 float(4byte) -> double(8byte)
 
+
+
+
+## 형변환
+명시적 형변환
+(byte) 1 + 4.5f
+
+암시적 형변환 
+낮은 것이 높은 것이 되는 것
+byte 2 -> short(2^15) 2
+
+```
+byte b = (byte) (f + d); //  (byte) 2 .200000023841858
+int i = b;
+```
+
 ## 문자
 char (0 ~ 2^7)
 
 ## 논리
 boolean (0 ~ 1)
 
+조건 <= (이하) < (미만) > (초과) >=(이상) ==(같다) != (다르다)
+
+# 반복 조건
+
+## for 
+```
+선언 조건 증감
+for(int i = 0; i < 5; i++){
+    System.out.println(i);
+}
+
+for(int i = 0; i < 5; i++){
+    for (int j = 0; j <= i ;j++){
+        System.out.print("*");
+    }
+    System.out.println();
+}
+```
+## if 
 
 
+# 참조형 
 
+## class 형
 
+## array 형
 
-
+## interface 형
 
 
 
